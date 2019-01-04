@@ -69,6 +69,64 @@ a:hover {
   color: #d70a67;
   font-size: 20px;
 }
+.title h1 {
+  color: lightgrey;
+  opacity: .4;
+  font-size: 160px;
+  font-weight: bolder;
+  position: absolute;
+  top: -120px;
+  left: 50px;
+}
+.cities h2 {
+  color: rgb(60, 60, 60);
+  font-size: 40px;
+  margin: 50px;
+}
+.card img {
+  width: 300px;
+  height: 300px;
+}
+.oslo h5 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-weight: bolder;
+}
+.oslo img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  overflow: hidden;
+}
+.freccia {
+  width: 50px;
+  height: 50px;
+  background: #d70a67;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-arrow-right {
+  color: white;
+  font-size: 20px;
+}
+.iniziale {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 40px;
+  left: 0px;
+}
+.iniziale h3 {
+  font-size: 200px;
+  opacity: .3;
+  color: #d70a67;
+}
 /* DIV & CONTAINER ---------------------------------------------------------------- */
 .main {
   width: 100%;
@@ -157,6 +215,26 @@ a:hover {
   width: 100%;
   height: 500px;
 }
+.title {
+  position: relative;
+  width: 500px;
+  height: 50px;
+}
+.foto_cities {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+.card {
+  width: 18.3%;
+  height: 300px;
+  margin: 10px;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+}
 /* CLASSI JQUERY -------------------------------------------------------------- */
 .sopra {
   z-index: 1000;
@@ -170,5 +248,8 @@ a:hover {
 }
 .alt_tot {
   height: 100%;
+}
+.nascosta {
+  display: none;
 }
 /* MEDIA QUERY ---------------------------------------------------------------- */

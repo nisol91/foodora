@@ -8,10 +8,20 @@ $(window).scroll(function() {
   $('.top-up img').addClass('sotto')
 });
 
-$('.adress').click(function(event) {
+$('.adress').click(function() {
   $(this).addClass('.adress-i')
 });
 
+$('.card img').mouseenter(function() {
+  $(this).siblings('.freccia').removeClass('nascosta')
+  $(this).siblings('.iniziale').removeClass('nascosta')
+  $(this)
+});
+
+$('.card img').mouseleave(function() {
+  $('.freccia').addClass('nascosta')
+  $('.iniziale').addClass('nascosta')
+});
 
 
 
