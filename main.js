@@ -15,7 +15,6 @@ $('.adress').click(function() {
 $('.card img').mouseenter(function() {
   $(this).siblings('.freccia').removeClass('nascosta')
   $(this).siblings('.iniziale').removeClass('nascosta')
-  $(this)
 });
 
 $('.card img').mouseleave(function() {

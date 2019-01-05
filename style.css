@@ -36,7 +36,7 @@ a:hover {
   font-size: 40px;
   color: rgb(60, 60, 60);
   margin-top: 150px;
-  margin-left: 30px;
+  margin-left: 100px;
   font-weight: lighter;
   float: left;
 }
@@ -69,22 +69,31 @@ a:hover {
   color: #d70a67;
   font-size: 20px;
 }
-.title h1 {
+.cities .title h1 {
   color: lightgrey;
-  opacity: .4;
+  opacity: .2;
   font-size: 160px;
   font-weight: bolder;
   position: absolute;
   top: -120px;
   left: 50px;
 }
-.cities h2 {
+.app .title h1 {
+  color: lightgrey;
+  opacity: .2;
+  font-size: 160px;
+  font-weight: bolder;
+  position: absolute;
+  top: -120px;
+  left: 50px;
+}
+.title h2 {
   color: rgb(60, 60, 60);
   font-size: 40px;
   margin: 50px;
 }
 .card img {
-  width: 300px;
+  width: 500px;
   height: 300px;
 }
 .oslo h5 {
@@ -126,6 +135,37 @@ a:hover {
   font-size: 200px;
   opacity: .3;
   color: #d70a67;
+}
+.app_violet h1 {
+  color: white;
+  font-size: 30px;
+}
+.app_violet h3 {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.violet_btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 0px;
+  border: 1px solid white;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 30px;
+  display: flex;
+}
+.vb_text h1 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  margin-left: 10px;
+}
+.vb_text h3 {
+  font-size: 10px;
+  color: white;
+  margin: 0;
+  margin-left: 10px;
 }
 /* DIV & CONTAINER ---------------------------------------------------------------- */
 .main {
@@ -213,7 +253,8 @@ a:hover {
 }
 .cities {
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding-bottom: 100px;
 }
 .title {
   position: relative;
@@ -234,6 +275,31 @@ a:hover {
   border-radius: 0px;
   position: relative;
   overflow: hidden;
+}
+.app {
+  width: 100%;
+  height: auto;
+}
+.app_violet {
+  background: #d70a67;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.app_text {
+  height: 50%;
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+  padding-top: 70px;
+}
+.bottoni_v {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 100px;
 }
 /* CLASSI JQUERY -------------------------------------------------------------- */
 .sopra {
