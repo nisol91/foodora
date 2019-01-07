@@ -491,4 +491,7 @@ a:hover {
 .nascosta {
   display: none;
 }
+.transizione {
+  transition: 0.3s;
+}
 /* MEDIA QUERY ---------------------------------------------------------------- */
