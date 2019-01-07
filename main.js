@@ -12,14 +12,16 @@ $('.adress').click(function() {
   $(this).addClass('.adress-i')
 });
 
-$('.card img').mouseenter(function() {
-  $(this).siblings('.freccia').removeClass('nascosta')
-  $(this).siblings('.iniziale').removeClass('nascosta')
+$('.card').mouseenter(function() {
+  $(this).find('.freccia').removeClass('nascosta')
+  $(this).find('.iniziale').removeClass('nascosta')
+  $(this).find('img').addClass('img_zoom')
 });
 
-$('.card img').mouseleave(function() {
+$('.card').mouseleave(function() {
   $('.freccia').addClass('nascosta')
   $('.iniziale').addClass('nascosta')
+  $(this).find('img').removeClass('img_zoom')
 });
 
 
