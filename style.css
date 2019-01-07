@@ -230,6 +230,11 @@ a:hover {
   color: white;
   font-size: 20px;
 }
+.vb_text img {
+  max-width: 100%;
+  width: 55%;
+  height: auto;
+}
 /* DIV & CONTAINER ---------------------------------------------------------------- */
 .main {
   width: 100%;
